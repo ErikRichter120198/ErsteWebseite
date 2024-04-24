@@ -1,20 +1,22 @@
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
+
 }
 
 h1{
     color:seagreen;
     font-size: 64px;
-    background-color: brown;
-    padding: 32px;
+    background-image: url();
+    padding: 10px;
+    
 }
 
 header{ 
     background-image: url(https://i.pinimg.com/564x/29/2a/a0/292aa0396953b721702d51cfd16016bf.jpg);
     color:#fff;
-    padding: 64px;
+    padding: 250px;
     text-align: center;
     :hover{
         color: blue
@@ -28,9 +30,22 @@ section {
 
 }
 
-.box {
-    background-color: #f0f0f0;
-    border: 16px solid #ccc;
-    border-radius: 16px;
-    padding: 10px;
+.box {     /*Hintergriund*/
+    background-image: url(https://i.pinimg.com/736x/33/1e/4c/331e4c4a8e3d516fef2f252414146b13.jpg);
+    border: 10px solid #ccc;
+    border-radius: 100px;
+    padding: 100px;
+    background-position: 50% 10%;
+    background-size: cover;
+
+            /* Für Wort*/
+     font-family: Arial, sans-serif; 
+     font-size: 30px; 
+     color: #000000; 
+     text-align: center; 
+    
+/*Farbe Link*/
+     color: blue; 
+    
+    
 }
