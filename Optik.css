@@ -1,0 +1,36 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:seagreen;
+    font-size: 64px;
+    background-color: brown;
+    padding: 32px;
+}
+
+header{ 
+    background-image: url(https://i.pinimg.com/564x/29/2a/a0/292aa0396953b721702d51cfd16016bf.jpg);
+    color:#fff;
+    padding: 64px;
+    text-align: center;
+    :hover{
+        color: blue
+    }
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 16px solid #ccc;
+    border-radius: 16px;
+    padding: 10px;
+}
